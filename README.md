@@ -56,3 +56,6 @@ To perform optimization, the goal is to create a single line by averaging the sl
   <img src="images/Resim31.png" alt="Optimization">
   <p><em></em></p>
 </div>
+
+### Lane Finding Algorithm in Video
+The algorithm developed for detecting lane lines in images has been applied in the same manner to video format. The algorithm has been repeatedly applied to video frames, and the results have been displayed on the screen. Additionally, functionality to press a keyboard key to close the video has been added.
