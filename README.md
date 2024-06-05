@@ -25,3 +25,11 @@ Image noise can create false edges and ultimately affect edge detection. We need
   <img src="images/Resim22.png" alt="Example of Gaussian Blur">
   <p><em>Gaussian Blur applied image</em></p>
 </div>
+
+### Canny Edge Detection
+
+I will use this method to identify edges in the image. An edge corresponds to a region in the image where there is a sharp change in intensity. The Canny function will perform the derivative of our function in both the X and Y directions, measuring the change in intensity relative to neighboring pixels. A small derivative indicates a small change in intensity, while a large derivative indicates a significant change. If the gradient exceeds the upper threshold, it is considered an edge pixel. If it is below the lower threshold, it is rejected.
+<div align="center">
+  <img src="images/Resim23.png" alt="Canny Edge Detection">
+  <p><em>Canny applied image</em></p>
+</div>
