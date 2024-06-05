@@ -42,4 +42,10 @@ Before focusing on how we can identify lane lines, we need to define the region 
   <p><em>The region of interest was isolated and everything else was masked</em></p>
 </div>
 
+### Hough Transformation
 
+Hough Transformation is a technique for detecting straight lines in an image. It creates a probability density space (Hough space) with parameters representing the straight line in the image. This involves a voting process for possible locations of a line for each pixel.
+<div align="center">
+  <img src="images/Resim30.png" alt="Hough Transformation">
+  <p><em>Using the parameters obtained from the points with the highest votes, lines were drawn onto the original image. These lines represent the lane markings</em></p>
+</div>
