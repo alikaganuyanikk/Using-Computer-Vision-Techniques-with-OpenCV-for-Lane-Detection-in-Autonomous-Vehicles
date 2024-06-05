@@ -33,6 +33,7 @@ I will use this method to identify edges in the image. An edge corresponds to a 
   <img src="images/Resim23.png" alt="Canny Edge Detection">
   <p><em>Canny applied image</em></p>
 </div>
+
 ### Region of Interest
 
 Before focusing on how we can identify lane lines, we need to define the region of interest in our image. We will limit the scope of our field of view according to this region of interest. To better explain how to isolate this region, I will use the Matplotlib library. Since it comes with the Anaconda distribution, we should import it into the project. What we need to do is define the function for the region of interest. It should return the closed region of our field of view and be designed to remind us 
