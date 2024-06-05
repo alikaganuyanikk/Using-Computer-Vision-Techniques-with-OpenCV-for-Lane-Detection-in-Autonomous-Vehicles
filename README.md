@@ -13,3 +13,5 @@ The purpose of edge detection is to identify the boundaries of objects within im
 ### Why Convert an Image to Grayscale?
 
 Images are composed of pixels. A three-channel color image contains red, green, and blue channels. In a grayscale image, each pixel has only one channel and only one intensity value. The absence of color information means less data usage and simpler processing procedures.
+![Grayscale Conversion](images/grayscale.png)
+
