@@ -39,11 +39,11 @@ Before focusing on how we can identify lane lines, we need to define the region 
 
 <div style="display: flex; justify-content: space-around;">
   <div>
-    <img src="images/Resim24.png" alt="Image 1" width="300"/>
+    <img src="images/Resim24.png" alt="Image 1" width="200"/>
     <p align="center">Region to be isolated</p>
   </div>
   <div>
-    <img src="images/Resim28.png" alt="Image 2" width="300"/>
+    <img src="images/Resim28.png" alt="Image 2" width="200"/>
     <p align="center">The region of interest was isolated and everything else was masked</p>
   </div>
 </div>
