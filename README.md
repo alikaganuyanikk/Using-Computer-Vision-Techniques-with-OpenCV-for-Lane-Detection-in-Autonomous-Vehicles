@@ -37,14 +37,9 @@ I will use this method to identify edges in the image. An edge corresponds to a 
 ### Region of Interest
 
 Before focusing on how we can identify lane lines, we need to define the region of interest in our image. We will limit the scope of our field of view according to this region of interest. To better explain how to isolate this region, I will use the Matplotlib library. Since it comes with the Anaconda distribution, we should import it into the project. What we need to do is define the function for the region of interest. It should return the closed region of our field of view and be designed to remind us 
-
-<div style="display: flex; justify-content: space-around;">
-  <div>
-    <img src="images/Resim24.png" alt="Image 1" width="600"/>
-    <p align="center">Region to be isolated</p>
-  </div>
-  <div>
-    <img src="images/Resim28.png" alt="Image 2" width="600"/>
-    <p align="center">The region of interest was isolated and everything else was masked</p>
-  </div>
+<div align="center">
+  <img src="images/Resim28.png" alt="Region of Interest">
+  <p><em>The region of interest was isolated and everything else was masked</em></p>
 </div>
+
+
