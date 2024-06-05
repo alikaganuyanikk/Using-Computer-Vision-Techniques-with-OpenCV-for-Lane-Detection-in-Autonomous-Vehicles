@@ -49,3 +49,10 @@ Hough Transformation is a technique for detecting straight lines in an image. It
   <img src="images/Resim30.png" alt="Hough Transformation">
   <p><em>Using the parameters obtained from the points with the highest votes, lines were drawn onto the original image. These lines represent the lane markings</em></p>
 </div>
+
+### Optimization
+To perform optimization, the goal is to create a single line by averaging the slopes and y-intercepts of the detected lines. This aims to achieve a clearer and smoother image by using only one line for each lane instead of multiple lines. As a first step, we will calculate the average slope and y-intercept separately for each lane. Then, using these average values, we will create a single line for each lane. This optimized approach will allow us to achieve a more effective result with less complexity.
+<div align="center">
+  <img src="images/Resim31.png" alt="Optimization">
+  <p><em></em></p>
+</div>
