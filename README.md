@@ -9,3 +9,7 @@ This is where computer vision comes into play, helping computers "see" through c
 **Grayscale Conversion**
 
 The purpose of edge detection is to identify the boundaries of objects within images. Essentially, I will use edge detection to find areas of sharpness in an image.
+
+### Why Convert an Image to Grayscale?
+
+Images are composed of pixels. A three-channel color image contains red, green, and blue channels. In a grayscale image, each pixel has only one channel and only one intensity value. The absence of color information means less data usage and simpler processing procedures.
