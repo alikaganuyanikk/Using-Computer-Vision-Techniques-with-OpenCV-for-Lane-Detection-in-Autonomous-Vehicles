@@ -17,3 +17,11 @@ Images are composed of pixels. A three-channel color image contains red, green, 
   <img src="images/Resim21.png" alt="Example of Grayscale Conversion and Edge Detection">
   <p><em>Grayscale applied image</em></p>
 </div>
+
+### Gaussian Blur
+
+Image noise can create false edges and ultimately affect edge detection. We need to reduce the noise and smooth our image while detecting edges.
+<div align="center">
+  <img src="images/Resim22.png" alt="Example of Gaussian Blur">
+  <p><em>Gaussian Blur applied image</em></p>
+</div>
